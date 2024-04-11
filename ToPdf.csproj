@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
+        <PackageId>X2PDF</PackageId>
+        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <Authors>garymar</Authors>
+        <Product>2PDF Converter</Product>
+        <PackageProjectUrl>https://2pdf.io</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/movigos/2pdf.dotnet</RepositoryUrl>
+        <Description>Master the power of PDF manipulation with our client library, an intuitive wrapper for the 2Pdf REST requests. Visit our REST API documentation at https://2pdf.io to discover the full range of capabilities.
+            Our library offers incredibly fast conversion of HTML or URLs to PDF, and supports converting HTML to images and vice versa, with a multitude of parameters.
+            Launch your next big idea with our powerful library—a user-friendly solution for all your PDF and Office file needs. Try it today and experience the speed and efficiency we deliver!</Description>
+        <PackageTags>PDF;ConvertToPDF;HTMLToPDF;URLToPDF;PDFTools;PDFUtility;PDFConverter;DocumentManagement</PackageTags>
+        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="LICENSE" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+</Project>
