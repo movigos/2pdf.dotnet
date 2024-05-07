@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using System.Dynamic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using ToPdf.Models;
 
@@ -27,7 +24,7 @@ namespace ToPdf.Helpers
             return builder.ToString();
         }
         
-        public static void SaveToFile(this PdfDocumentModel document, string fileName)
+        public static void SaveToFile(this DocumentModel document, string fileName)
         {
             File.WriteAllBytes(fileName, document.Bytes);
         }

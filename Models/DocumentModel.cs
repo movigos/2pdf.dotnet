@@ -1,6 +1,6 @@
 namespace ToPdf.Models
 {
-    public class PdfDocumentModel
+    public class DocumentModel
     {
         public byte[] Bytes { get; set; }
         public string Format { get; set; }

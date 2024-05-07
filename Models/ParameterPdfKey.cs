@@ -2,7 +2,6 @@ namespace ToPdf.Models
 {
     public enum ParameterPdfKey
     {
-        Source,
         Dpi,
         ImageQuality,
         PageSize,
